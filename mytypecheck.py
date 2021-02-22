@@ -5,9 +5,9 @@ def hello(name: str) -> str:   # type hint or type annotation
 
 
 print(hello('world'))
-print(hello(5))
+# print(hello(5))
 s = hello('world')
-print(s + 3)
+# print(s + 3)
 
 
 def firstlast(data):
