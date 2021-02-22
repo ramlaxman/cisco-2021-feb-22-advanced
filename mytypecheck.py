@@ -4,6 +4,15 @@ def hello(name: str) -> str:   # type hint or type annotation
     return f'Hello, {name}!'
 
 
+def firstlast(data):
+    return data[:1] + data[-1:]
+
+
+print(firstlast('abcde'))
+print(firstlast([10, 20, 30, 40, 50]))
+print(firstlast((100, 200, 300)))
+
+
 print(hello('world'))
 print(hello(5))
 s = hello('world')
