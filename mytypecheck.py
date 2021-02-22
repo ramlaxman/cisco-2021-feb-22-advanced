@@ -13,7 +13,7 @@ s = hello('world')
 # print(s + 3)
 
 
-def firstlast(data: Sequence[Any]) -> Sequence[Any]:
+def firstlast(data: Sequence[Any]) -> Any:
     return data[:1] + data[-1:]
 
 
