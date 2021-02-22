@@ -10,7 +10,7 @@ s = hello('world')
 # print(s + 3)
 
 
-def firstlast(data):
+def firstlast(data: str):
     return data[:1] + data[-1:]
 
 
