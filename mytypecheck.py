@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+from typing import Sequence
+
+
 def hello(name: str) -> str:   # type hint or type annotation
     return f'Hello, {name}!'
 
@@ -10,7 +13,7 @@ s = hello('world')
 # print(s + 3)
 
 
-def firstlast(data: str):
+def firstlast(data: Sequence):
     return data[:1] + data[-1:]
 
 
