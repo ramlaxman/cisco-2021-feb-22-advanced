@@ -1,0 +1,2 @@
+Hello
+Now in TempOutput.__exit__
